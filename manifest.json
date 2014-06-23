@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "DataTau",
+  "version": "0.0.1",
+  "description": "Displays recent stories from DataTau",
+  "icons": { "48": "icon48.png" },
+  "browser_action": {
+    "default_title": "DataTau",
+    "default_icon": "icon18.png",
+    "default_popup": "popup.html"
+  },
+	"background": {
+    "page": "background.html"
+  },
+	"options_page":"options.html",
+  "permissions": [
+    "tabs",
+    "http://www.datatau.com/",
+    "notifications"
+  ]
+}
